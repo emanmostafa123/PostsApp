@@ -1,0 +1,15 @@
+<div class="form-div">
+    <form class="d-block">
+        <h3>Welcome back</h3>
+    
+        <input type="text" class="form-control" placeholder="Email" #userName required>
+        <input type="password" class="form-control" placeholder="Password" #userPassword required>
+        <input type="button" class="btn btnPrimary" value="Log in"
+            (click)="authService.SignIn(userName.value, userPassword.value)">
+        <br>
+        <span>Don't have an account?<a class="redirect" routerLink="/signup"> Sign Up</a></span>
+    
+    </form>
+    <img src="../../../assets/loginimg.png" alt="login">
+
+</div>

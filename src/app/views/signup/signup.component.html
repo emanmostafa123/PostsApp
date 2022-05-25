@@ -1,0 +1,45 @@
+<div class="con-form-div">
+    <img src="../../../assets/signup.png" alt="signup" class="mt-5">
+            <div class="form-div">
+                <form class="d-block" >
+                    <h3>Signup</h3>
+                    <input
+                    type="text"
+                    class="form-control"
+                    placeholder="name"
+                    #username
+                    required
+                    />
+                    <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email Address"
+                    #userEmail
+                    required
+                    />                    
+                    <input
+                    type="password"
+                    class="form-control"
+                    placeholder="Password"
+                    #userPwd
+                    required
+                    />                    
+                    <input
+                    type="tel"
+                    class="form-control"
+                    placeholder="phone"
+                    #userphone
+                    required
+                    />
+                    
+                    <input
+                    type="button"
+                    class="btn"
+                    value="Sign Up"
+                    (click)="authService.SignUp(userEmail.value, userPwd.value)"
+                    />
+ 
+                    <a routerLink="/" class="ms-3">Back to login page</a>
+                </form>    
+            </div>
+</div>

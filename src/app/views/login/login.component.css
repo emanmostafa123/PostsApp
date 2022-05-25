@@ -1,0 +1,51 @@
+.form-div{
+    background-color: #F2F2F2;
+    display:flex;
+}
+
+.form-div img{
+    width: 48%;
+}
+h3{
+    color: #505CA9;
+}
+
+form{
+    width: 30%;
+    margin: auto;
+    background-color: white;
+    margin-top: 13%;
+    padding: 5%;
+    border-radius: 20px;
+    
+}
+input{
+    margin-top: 10%;
+}
+.btn{
+    background-color: #505CA9;
+    color: white;
+    margin-top: 10%;
+    padding: 3% 10%;
+}
+
+.redirect{
+    color: #505CA9;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:800px) {
+    .form-div{
+        display: block!important;
+    }
+    .form-div img{
+        width: 95%;
+    }
+
+        
+    form{
+        width: 90%;
+    }
+}

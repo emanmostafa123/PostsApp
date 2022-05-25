@@ -1,0 +1,19 @@
+
+
+
+
+.addpost-btn{
+    background-color: #505CA9;
+    color: white;
+}
+
+
+
+
+@media screen and (max-width: 400px) {
+    *{
+        font-size: 12px;
+    }
+    
+}
+

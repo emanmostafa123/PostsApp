@@ -1,0 +1,38 @@
+
+
+h3{
+    color: #B161D1;
+}
+
+.form-div{
+    margin: auto;
+    width: 30%;
+    background-color: white;
+    margin-top: 15%;
+    padding: 5%;
+    border-radius: 20px;
+    
+}
+input{
+    margin-top: 10%;
+}
+.btn{
+    margin-bottom: 3%;
+    background-color: #B161D1;
+    color: white;
+    margin-top: 10%;
+    padding: 3% 10%;
+}
+
+.redirect{
+    color: #B161D1;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 880px) {
+    .form-div{
+        width: 90%;
+    }
+}
